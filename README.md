@@ -5,7 +5,6 @@ This repository provides the code, database, trained model objects, and graphica
 The MESM predicts permeate flux and antibiotic rejection as functions of operating pressure, feed concentration, and pH. The model uses a multi-input multi-output neural-network ensemble with ReLU, tanh, and logistic base learners, followed by a meta-layer. The workflow includes z-score standardization, nested leave-one-out cross-validation, Optuna-based hyperparameter optimization, uncertainty estimation, SHAP-based interpretation, response-grid generation, and GUI-compatible model export.
 
 Repository contents
-
 Database.xlsx
 MESM_training.py
 Membrane Ensemble Surrogate Model.py
